@@ -19,7 +19,7 @@ jobs:
         echo "Building and testing your application..."
 
     - name: Deploy to Jenkins
-      uses: appleboy/jenkins-action@v3
+      uses: appleboy/jenkins-action@v2
       with:
         url: http://localhost:8080/
         user: prasad
